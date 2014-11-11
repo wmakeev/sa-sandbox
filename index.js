@@ -26,4 +26,20 @@ var Sandbox = function(core, instanceId, options, moduleId) {
     return this;
 };
 
+Sandbox.prototype.setModuleInfo = function (info) {
+    this.set('__module_info', info);
+};
+
+Sandbox.prototype.getModuleInfo = function (fieldName) {
+    if (fieldName) {
+        var info = this.get('__module_info');
+        return info.__module_info
+            ? info.__module_info[fieldName]
+            : undefined;
+    } else {
+
+        return this.get('__module_info');
+    }
+};
+
 module.exports = Sandbox;
