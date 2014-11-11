@@ -1,0 +1,14 @@
+{
+    "name": "sa-sandbox",
+    "version": "0.1.0",
+    "description": "Simple Sandbox for scaleApp",
+    "author": "Makeev Vitaliy <w.makeev@gmail.com>",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/wmakeev/sa-sandbox"
+    },
+    "keywords": [
+        "scaleApp",
+        "sandbox"
+    ]
+}

@@ -1,4 +1,16 @@
 sa-sandbox
 ==========
 
-Extended Sandbox for scaleApp
+Simple Sandbox for scaleApp
+
+##sandbox.id
+instance Id
+
+##sandbox.set(name, value)
+set value
+
+##sandbox.get(name, def)
+get value
+
+`name` - value key
+`def` - default value
